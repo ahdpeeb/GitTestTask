@@ -58,6 +58,9 @@
 		93FFF1621E92DB3400A9DAA1 /* UINib + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1611E92DB3400A9DAA1 /* UINib + Extension.swift */; };
 		93FFF1641E92DC1100A9DAA1 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1631E92DC1100A9DAA1 /* ImageLoader.swift */; };
 		93FFF1671E92DC3300A9DAA1 /* NSBundle+ANSExtenison.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1661E92DC3300A9DAA1 /* NSBundle+ANSExtenison.m */; };
+		93FFF16A1E92DCA200A9DAA1 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FFF1691E92DCA200A9DAA1 /* main.storyboard */; };
+		93FFF16D1E92DD7F00A9DAA1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF16C1E92DD7F00A9DAA1 /* LoginViewController.swift */; };
+		93FFF16F1E92DDA700A9DAA1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF16E1E92DDA700A9DAA1 /* LoginView.swift */; };
 		99A128DEEBA819998164720F /* Pods_GitTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48EDFD1B8B21B5B30A0AC11 /* Pods_GitTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -121,6 +124,9 @@
 		93FFF1631E92DC1100A9DAA1 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		93FFF1651E92DC3300A9DAA1 /* NSBundle+ANSExtenison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+ANSExtenison.h"; sourceTree = "<group>"; };
 		93FFF1661E92DC3300A9DAA1 /* NSBundle+ANSExtenison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+ANSExtenison.m"; sourceTree = "<group>"; };
+		93FFF1691E92DCA200A9DAA1 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = main.storyboard; path = ViewControllers/main.storyboard; sourceTree = "<group>"; };
+		93FFF16C1E92DD7F00A9DAA1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		93FFF16E1E92DDA700A9DAA1 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B48EDFD1B8B21B5B30A0AC11 /* Pods_GitTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -166,6 +172,7 @@
 		93FFF0B21E92D1FB00A9DAA1 /* GitTest */ = {
 			isa = PBXGroup;
 			children = (
+				93FFF1691E92DCA200A9DAA1 /* main.storyboard */,
 				93FFF0C81E92D2C500A9DAA1 /* AppState */,
 				93FFF0D41E92D2C500A9DAA1 /* ViewControllers */,
 				93FFF0C91E92D2C500A9DAA1 /* Models */,
@@ -207,6 +214,7 @@
 		93FFF0D41E92D2C500A9DAA1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				93FFF16B1E92DCD400A9DAA1 /* LoginViewController */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -433,6 +441,15 @@
 			name = "NSBundle + ANSExtension";
 			sourceTree = "<group>";
 		};
+		93FFF16B1E92DCD400A9DAA1 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF16C1E92DD7F00A9DAA1 /* LoginViewController.swift */,
+				93FFF16E1E92DDA700A9DAA1 /* LoginView.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
 		E38E819E85B2BECD08050517 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -510,6 +527,7 @@
 				93FFF1561E92D3B500A9DAA1 /* ANSLoadingView.xib in Resources */,
 				93FFF1421E92D3B500A9DAA1 /* PaginatorView.xib in Resources */,
 				93FFF13A1E92D3B500A9DAA1 /* Info.plist in Resources */,
+				93FFF16A1E92DCA200A9DAA1 /* main.storyboard in Resources */,
 				93FFF13B1E92D3B500A9DAA1 /* DropDownCell.xib in Resources */,
 				93FFF0D71E92D2C500A9DAA1 /* Assets.xcassets in Resources */,
 				93FFF0D81E92D2C500A9DAA1 /* LaunchScreen.storyboard in Resources */,
@@ -602,10 +620,12 @@
 				93FFF1351E92D3B500A9DAA1 /* CustomPlayer.swift in Sources */,
 				93FFF13D1E92D3B500A9DAA1 /* DropDown.swift in Sources */,
 				93FFF15C1E92D3B500A9DAA1 /* ObservableArray.swift in Sources */,
+				93FFF16F1E92DDA700A9DAA1 /* LoginView.swift in Sources */,
 				93FFF1521E92D3B500A9DAA1 /* UITableView + Extension.swift in Sources */,
 				93FFF1321E92D3B500A9DAA1 /* SlideInPresentationManager.swift in Sources */,
 				93FFF1621E92DB3400A9DAA1 /* UINib + Extension.swift in Sources */,
 				93FFF1311E92D3B500A9DAA1 /* SlideInPresentationController.swift in Sources */,
+				93FFF16D1E92DD7F00A9DAA1 /* LoginViewController.swift in Sources */,
 				93FFF1641E92DC1100A9DAA1 /* ImageLoader.swift in Sources */,
 				93FFF1411E92D3B500A9DAA1 /* PaginatorView.swift in Sources */,
 				93FFF1581E92D3B500A9DAA1 /* Locker.swift in Sources */,
@@ -684,6 +704,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "GitTest-Bridging-Header";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -725,6 +746,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "GitTest-Bridging-Header";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -734,11 +756,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6781A9F58444C5A5F55AD825 /* Pods-GitTest.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 2MQ5R4FSP4;
 				INFOPLIST_FILE = "$(SRCROOT)/GitTest/Source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Nikola-Andriiev.GitTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "GitTest-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -747,11 +772,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7DA4785E640FC7FDD06EF1BD /* Pods-GitTest.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 2MQ5R4FSP4;
 				INFOPLIST_FILE = "$(SRCROOT)/GitTest/Source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Nikola-Andriiev.GitTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "GitTest-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
