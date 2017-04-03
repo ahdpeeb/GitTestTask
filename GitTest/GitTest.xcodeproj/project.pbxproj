@@ -13,6 +13,57 @@
 		93FFF0D91E92D2C500A9DAA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FFF0CF1E92D2C500A9DAA1 /* Main.storyboard */; };
 		93FFF0DA1E92D2C500A9DAA1 /* GitTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0D11E92D2C500A9DAA1 /* GitTest.xcdatamodeld */; };
 		93FFF0DB1E92D2C500A9DAA1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93FFF0D31E92D2C500A9DAA1 /* Info.plist */; };
+		93FFF12A1E92D3B500A9DAA1 /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0DD1E92D3B400A9DAA1 /* Binding.swift */; };
+		93FFF12B1E92D3B500A9DAA1 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0DE1E92D3B400A9DAA1 /* Converter.swift */; };
+		93FFF12C1E92D3B500A9DAA1 /* FlipApperdAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0E11E92D3B400A9DAA1 /* FlipApperdAnimationController.swift */; };
+		93FFF12D1E92D3B500A9DAA1 /* FlipDismissAnimationControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0E21E92D3B400A9DAA1 /* FlipDismissAnimationControllerViewController.swift */; };
+		93FFF12E1E92D3B500A9DAA1 /* FlipTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0E31E92D3B400A9DAA1 /* FlipTransitionDelegate.swift */; };
+		93FFF12F1E92D3B500A9DAA1 /* SwipeInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0E41E92D3B400A9DAA1 /* SwipeInteractionController.swift */; };
+		93FFF1301E92D3B500A9DAA1 /* SlideInPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0E61E92D3B400A9DAA1 /* SlideInPresentationAnimator.swift */; };
+		93FFF1311E92D3B500A9DAA1 /* SlideInPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0E71E92D3B400A9DAA1 /* SlideInPresentationController.swift */; };
+		93FFF1321E92D3B500A9DAA1 /* SlideInPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0E81E92D3B400A9DAA1 /* SlideInPresentationManager.swift */; };
+		93FFF1331E92D3B500A9DAA1 /* SlideOutAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0E91E92D3B400A9DAA1 /* SlideOutAnimationController.swift */; };
+		93FFF1341E92D3B500A9DAA1 /* TrancitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0EA1E92D3B400A9DAA1 /* TrancitionViewController.swift */; };
+		93FFF1351E92D3B500A9DAA1 /* CustomPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0ED1E92D3B400A9DAA1 /* CustomPlayer.swift */; };
+		93FFF1361E92D3B500A9DAA1 /* CustomPlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FFF0EE1E92D3B400A9DAA1 /* CustomPlayer.xib */; };
+		93FFF1371E92D3B500A9DAA1 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0F21E92D3B500A9DAA1 /* DPDConstants.swift */; };
+		93FFF1381E92D3B500A9DAA1 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0F31E92D3B500A9DAA1 /* DPDKeyboardListener.swift */; };
+		93FFF1391E92D3B500A9DAA1 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0F41E92D3B500A9DAA1 /* DPDUIView+Extension.swift */; };
+		93FFF13A1E92D3B500A9DAA1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93FFF0F51E92D3B500A9DAA1 /* Info.plist */; };
+		93FFF13B1E92D3B500A9DAA1 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FFF0F71E92D3B500A9DAA1 /* DropDownCell.xib */; };
+		93FFF13C1E92D3B500A9DAA1 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0F91E92D3B500A9DAA1 /* DropDown+Appearance.swift */; };
+		93FFF13D1E92D3B500A9DAA1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0FA1E92D3B500A9DAA1 /* DropDown.swift */; };
+		93FFF13E1E92D3B500A9DAA1 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0FB1E92D3B500A9DAA1 /* DropDownCell.swift */; };
+		93FFF13F1E92D3B500A9DAA1 /* LeftArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0FE1E92D3B500A9DAA1 /* LeftArrowButton.swift */; };
+		93FFF1401E92D3B500A9DAA1 /* RightArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1001E92D3B500A9DAA1 /* RightArrowButton.swift */; };
+		93FFF1411E92D3B500A9DAA1 /* PaginatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1021E92D3B500A9DAA1 /* PaginatorView.swift */; };
+		93FFF1421E92D3B500A9DAA1 /* PaginatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FFF1031E92D3B500A9DAA1 /* PaginatorView.xib */; };
+		93FFF1431E92D3B500A9DAA1 /* SSRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1051E92D3B500A9DAA1 /* SSRadioButton.swift */; };
+		93FFF1441E92D3B500A9DAA1 /* SSRadioButtonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1061E92D3B500A9DAA1 /* SSRadioButtonsController.swift */; };
+		93FFF1451E92D3B500A9DAA1 /* ExpandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1071E92D3B500A9DAA1 /* ExpandButton.swift */; };
+		93FFF1461E92D3B500A9DAA1 /* Array + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1091E92D3B500A9DAA1 /* Array + Extension.swift */; };
+		93FFF1471E92D3B500A9DAA1 /* Date + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF10A1E92D3B500A9DAA1 /* Date + Extension.swift */; };
+		93FFF1481E92D3B500A9DAA1 /* FileManager + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF10B1E92D3B500A9DAA1 /* FileManager + Extension.swift */; };
+		93FFF1491E92D3B500A9DAA1 /* NSBundle+ANSExtenison.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF10E1E92D3B500A9DAA1 /* NSBundle+ANSExtenison.m */; };
+		93FFF14A1E92D3B500A9DAA1 /* UINib + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF10F1E92D3B500A9DAA1 /* UINib + Extension.swift */; };
+		93FFF14B1E92D3B500A9DAA1 /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1101E92D3B500A9DAA1 /* String + Extension.swift */; };
+		93FFF14C1E92D3B500A9DAA1 /* String + Сurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1111E92D3B500A9DAA1 /* String + Сurrency.swift */; };
+		93FFF14D1E92D3B500A9DAA1 /* UIAllertViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1121E92D3B500A9DAA1 /* UIAllertViewController + Extension.swift */; };
+		93FFF14E1E92D3B500A9DAA1 /* UICollectionView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1131E92D3B500A9DAA1 /* UICollectionView + Extension.swift */; };
+		93FFF14F1E92D3B500A9DAA1 /* UINib + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1141E92D3B500A9DAA1 /* UINib + Extension.swift */; };
+		93FFF1501E92D3B500A9DAA1 /* UIStoryboard + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1151E92D3B500A9DAA1 /* UIStoryboard + Extension.swift */; };
+		93FFF1511E92D3B500A9DAA1 /* UITableView + ChangeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1161E92D3B500A9DAA1 /* UITableView + ChangeModel.swift */; };
+		93FFF1521E92D3B500A9DAA1 /* UITableView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1171E92D3B500A9DAA1 /* UITableView + Extension.swift */; };
+		93FFF1531E92D3B500A9DAA1 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1181E92D3B500A9DAA1 /* UIViewController + Extension.swift */; };
+		93FFF1541E92D3B500A9DAA1 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1191E92D3B500A9DAA1 /* ImageLoader.swift */; };
+		93FFF1551E92D3B500A9DAA1 /* ANSLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF11D1E92D3B500A9DAA1 /* ANSLoadingView.m */; };
+		93FFF1561E92D3B500A9DAA1 /* ANSLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FFF11E1E92D3B500A9DAA1 /* ANSLoadingView.xib */; };
+		93FFF1571E92D3B500A9DAA1 /* ANSRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1211E92D3B500A9DAA1 /* ANSRootView.m */; };
+		93FFF1581E92D3B500A9DAA1 /* Locker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1221E92D3B500A9DAA1 /* Locker.swift */; };
+		93FFF1591E92D3B500A9DAA1 /* ObservableArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1251E92D3B500A9DAA1 /* ObservableArray.swift */; };
+		93FFF15A1E92D3B500A9DAA1 /* ExpandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1271E92D3B500A9DAA1 /* ExpandButton.swift */; };
+		93FFF15B1E92D3B500A9DAA1 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1281E92D3B500A9DAA1 /* ImageLoader.swift */; };
+		93FFF15C1E92D3B500A9DAA1 /* ObservableArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1291E92D3B500A9DAA1 /* ObservableArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +74,62 @@
 		93FFF0D01E92D2C500A9DAA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93FFF0D21E92D2C500A9DAA1 /* GitTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GitTest.xcdatamodel; sourceTree = "<group>"; };
 		93FFF0D31E92D2C500A9DAA1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93FFF0DD1E92D3B400A9DAA1 /* Binding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
+		93FFF0DE1E92D3B400A9DAA1 /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		93FFF0E11E92D3B400A9DAA1 /* FlipApperdAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipApperdAnimationController.swift; sourceTree = "<group>"; };
+		93FFF0E21E92D3B400A9DAA1 /* FlipDismissAnimationControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipDismissAnimationControllerViewController.swift; sourceTree = "<group>"; };
+		93FFF0E31E92D3B400A9DAA1 /* FlipTransitionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipTransitionDelegate.swift; sourceTree = "<group>"; };
+		93FFF0E41E92D3B400A9DAA1 /* SwipeInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeInteractionController.swift; sourceTree = "<group>"; };
+		93FFF0E61E92D3B400A9DAA1 /* SlideInPresentationAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInPresentationAnimator.swift; sourceTree = "<group>"; };
+		93FFF0E71E92D3B400A9DAA1 /* SlideInPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInPresentationController.swift; sourceTree = "<group>"; };
+		93FFF0E81E92D3B400A9DAA1 /* SlideInPresentationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInPresentationManager.swift; sourceTree = "<group>"; };
+		93FFF0E91E92D3B400A9DAA1 /* SlideOutAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideOutAnimationController.swift; sourceTree = "<group>"; };
+		93FFF0EA1E92D3B400A9DAA1 /* TrancitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrancitionViewController.swift; sourceTree = "<group>"; };
+		93FFF0ED1E92D3B400A9DAA1 /* CustomPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPlayer.swift; sourceTree = "<group>"; };
+		93FFF0EE1E92D3B400A9DAA1 /* CustomPlayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPlayer.xib; sourceTree = "<group>"; };
+		93FFF0F01E92D3B500A9DAA1 /* DropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDown.h; sourceTree = "<group>"; };
+		93FFF0F21E92D3B500A9DAA1 /* DPDConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDConstants.swift; sourceTree = "<group>"; };
+		93FFF0F31E92D3B500A9DAA1 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		93FFF0F41E92D3B500A9DAA1 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		93FFF0F51E92D3B500A9DAA1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93FFF0F71E92D3B500A9DAA1 /* DropDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
+		93FFF0F91E92D3B500A9DAA1 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		93FFF0FA1E92D3B500A9DAA1 /* DropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
+		93FFF0FB1E92D3B500A9DAA1 /* DropDownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
+		93FFF0FE1E92D3B500A9DAA1 /* LeftArrowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftArrowButton.swift; sourceTree = "<group>"; };
+		93FFF1001E92D3B500A9DAA1 /* RightArrowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightArrowButton.swift; sourceTree = "<group>"; };
+		93FFF1021E92D3B500A9DAA1 /* PaginatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginatorView.swift; sourceTree = "<group>"; };
+		93FFF1031E92D3B500A9DAA1 /* PaginatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginatorView.xib; sourceTree = "<group>"; };
+		93FFF1051E92D3B500A9DAA1 /* SSRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButton.swift; sourceTree = "<group>"; };
+		93FFF1061E92D3B500A9DAA1 /* SSRadioButtonsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButtonsController.swift; sourceTree = "<group>"; };
+		93FFF1071E92D3B500A9DAA1 /* ExpandButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandButton.swift; sourceTree = "<group>"; };
+		93FFF1091E92D3B500A9DAA1 /* Array + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array + Extension.swift"; sourceTree = "<group>"; };
+		93FFF10A1E92D3B500A9DAA1 /* Date + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date + Extension.swift"; sourceTree = "<group>"; };
+		93FFF10B1E92D3B500A9DAA1 /* FileManager + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager + Extension.swift"; sourceTree = "<group>"; };
+		93FFF10D1E92D3B500A9DAA1 /* NSBundle+ANSExtenison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+ANSExtenison.h"; sourceTree = "<group>"; };
+		93FFF10E1E92D3B500A9DAA1 /* NSBundle+ANSExtenison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+ANSExtenison.m"; sourceTree = "<group>"; };
+		93FFF10F1E92D3B500A9DAA1 /* UINib + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINib + Extension.swift"; sourceTree = "<group>"; };
+		93FFF1101E92D3B500A9DAA1 /* String + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		93FFF1111E92D3B500A9DAA1 /* String + Сurrency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Сurrency.swift"; sourceTree = "<group>"; };
+		93FFF1121E92D3B500A9DAA1 /* UIAllertViewController + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAllertViewController + Extension.swift"; sourceTree = "<group>"; };
+		93FFF1131E92D3B500A9DAA1 /* UICollectionView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView + Extension.swift"; sourceTree = "<group>"; };
+		93FFF1141E92D3B500A9DAA1 /* UINib + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINib + Extension.swift"; sourceTree = "<group>"; };
+		93FFF1151E92D3B500A9DAA1 /* UIStoryboard + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard + Extension.swift"; sourceTree = "<group>"; };
+		93FFF1161E92D3B500A9DAA1 /* UITableView + ChangeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView + ChangeModel.swift"; sourceTree = "<group>"; };
+		93FFF1171E92D3B500A9DAA1 /* UITableView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView + Extension.swift"; sourceTree = "<group>"; };
+		93FFF1181E92D3B500A9DAA1 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		93FFF1191E92D3B500A9DAA1 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		93FFF11C1E92D3B500A9DAA1 /* ANSLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSLoadingView.h; sourceTree = "<group>"; };
+		93FFF11D1E92D3B500A9DAA1 /* ANSLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSLoadingView.m; sourceTree = "<group>"; };
+		93FFF11E1E92D3B500A9DAA1 /* ANSLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANSLoadingView.xib; sourceTree = "<group>"; };
+		93FFF1201E92D3B500A9DAA1 /* ANSRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSRootView.h; sourceTree = "<group>"; };
+		93FFF1211E92D3B500A9DAA1 /* ANSRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSRootView.m; sourceTree = "<group>"; };
+		93FFF1221E92D3B500A9DAA1 /* Locker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locker.swift; sourceTree = "<group>"; };
+		93FFF1241E92D3B500A9DAA1 /* ANSMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSMacros.h; sourceTree = "<group>"; };
+		93FFF1251E92D3B500A9DAA1 /* ObservableArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableArray.swift; sourceTree = "<group>"; };
+		93FFF1271E92D3B500A9DAA1 /* ExpandButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandButton.swift; sourceTree = "<group>"; };
+		93FFF1281E92D3B500A9DAA1 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		93FFF1291E92D3B500A9DAA1 /* ObservableArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +146,7 @@
 		93FFF0A71E92D1FB00A9DAA1 = {
 			isa = PBXGroup;
 			children = (
+				93FFF0DC1E92D3B400A9DAA1 /* Library */,
 				93FFF0B21E92D1FB00A9DAA1 /* GitTest */,
 				93FFF0B11E92D1FB00A9DAA1 /* Products */,
 			);
@@ -56,8 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				93FFF0C81E92D2C500A9DAA1 /* AppState */,
-				93FFF0C91E92D2C500A9DAA1 /* Models */,
 				93FFF0D41E92D2C500A9DAA1 /* ViewControllers */,
+				93FFF0C91E92D2C500A9DAA1 /* Models */,
 				93FFF0D51E92D2C500A9DAA1 /* ViewModels */,
 				93FFF0CA1E92D2C500A9DAA1 /* Source */,
 			);
@@ -103,6 +211,237 @@
 			children = (
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		93FFF0DC1E92D3B400A9DAA1 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF0DD1E92D3B400A9DAA1 /* Binding.swift */,
+				93FFF0DE1E92D3B400A9DAA1 /* Converter.swift */,
+				93FFF0DF1E92D3B400A9DAA1 /* CustomModalControllers */,
+				93FFF0EB1E92D3B400A9DAA1 /* CustomUI */,
+				93FFF1071E92D3B500A9DAA1 /* ExpandButton.swift */,
+				93FFF1081E92D3B500A9DAA1 /* Extensions */,
+				93FFF1191E92D3B500A9DAA1 /* ImageLoader.swift */,
+				93FFF11A1E92D3B500A9DAA1 /* LoadingView */,
+				93FFF1221E92D3B500A9DAA1 /* Locker.swift */,
+				93FFF1231E92D3B500A9DAA1 /* Macroses */,
+				93FFF1251E92D3B500A9DAA1 /* ObservableArray.swift */,
+				93FFF1261E92D3B500A9DAA1 /* RxCustom */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		93FFF0DF1E92D3B400A9DAA1 /* CustomModalControllers */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF0E01E92D3B400A9DAA1 /* FlipAnimationController */,
+				93FFF0E51E92D3B400A9DAA1 /* SlideInPresentationController */,
+				93FFF0EA1E92D3B400A9DAA1 /* TrancitionViewController.swift */,
+			);
+			path = CustomModalControllers;
+			sourceTree = "<group>";
+		};
+		93FFF0E01E92D3B400A9DAA1 /* FlipAnimationController */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF0E11E92D3B400A9DAA1 /* FlipApperdAnimationController.swift */,
+				93FFF0E21E92D3B400A9DAA1 /* FlipDismissAnimationControllerViewController.swift */,
+				93FFF0E31E92D3B400A9DAA1 /* FlipTransitionDelegate.swift */,
+				93FFF0E41E92D3B400A9DAA1 /* SwipeInteractionController.swift */,
+			);
+			path = FlipAnimationController;
+			sourceTree = "<group>";
+		};
+		93FFF0E51E92D3B400A9DAA1 /* SlideInPresentationController */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF0E61E92D3B400A9DAA1 /* SlideInPresentationAnimator.swift */,
+				93FFF0E71E92D3B400A9DAA1 /* SlideInPresentationController.swift */,
+				93FFF0E81E92D3B400A9DAA1 /* SlideInPresentationManager.swift */,
+				93FFF0E91E92D3B400A9DAA1 /* SlideOutAnimationController.swift */,
+			);
+			path = SlideInPresentationController;
+			sourceTree = "<group>";
+		};
+		93FFF0EB1E92D3B400A9DAA1 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF0EC1E92D3B400A9DAA1 /* CustomPlayer */,
+				93FFF0EF1E92D3B500A9DAA1 /* DropDown */,
+				93FFF0FC1E92D3B500A9DAA1 /* NavigationButtons */,
+				93FFF1011E92D3B500A9DAA1 /* PaginatorView */,
+				93FFF1041E92D3B500A9DAA1 /* RadioButtonController */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		93FFF0EC1E92D3B400A9DAA1 /* CustomPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF0ED1E92D3B400A9DAA1 /* CustomPlayer.swift */,
+				93FFF0EE1E92D3B400A9DAA1 /* CustomPlayer.xib */,
+			);
+			path = CustomPlayer;
+			sourceTree = "<group>";
+		};
+		93FFF0EF1E92D3B500A9DAA1 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF0F01E92D3B500A9DAA1 /* DropDown.h */,
+				93FFF0F11E92D3B500A9DAA1 /* helpers */,
+				93FFF0F51E92D3B500A9DAA1 /* Info.plist */,
+				93FFF0F61E92D3B500A9DAA1 /* resources */,
+				93FFF0F81E92D3B500A9DAA1 /* src */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		93FFF0F11E92D3B500A9DAA1 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF0F21E92D3B500A9DAA1 /* DPDConstants.swift */,
+				93FFF0F31E92D3B500A9DAA1 /* DPDKeyboardListener.swift */,
+				93FFF0F41E92D3B500A9DAA1 /* DPDUIView+Extension.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		93FFF0F61E92D3B500A9DAA1 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF0F71E92D3B500A9DAA1 /* DropDownCell.xib */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		93FFF0F81E92D3B500A9DAA1 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF0F91E92D3B500A9DAA1 /* DropDown+Appearance.swift */,
+				93FFF0FA1E92D3B500A9DAA1 /* DropDown.swift */,
+				93FFF0FB1E92D3B500A9DAA1 /* DropDownCell.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		93FFF0FC1E92D3B500A9DAA1 /* NavigationButtons */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF0FD1E92D3B500A9DAA1 /* LeftArrowButton */,
+				93FFF0FF1E92D3B500A9DAA1 /* RightArrowButton */,
+			);
+			path = NavigationButtons;
+			sourceTree = "<group>";
+		};
+		93FFF0FD1E92D3B500A9DAA1 /* LeftArrowButton */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF0FE1E92D3B500A9DAA1 /* LeftArrowButton.swift */,
+			);
+			path = LeftArrowButton;
+			sourceTree = "<group>";
+		};
+		93FFF0FF1E92D3B500A9DAA1 /* RightArrowButton */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF1001E92D3B500A9DAA1 /* RightArrowButton.swift */,
+			);
+			path = RightArrowButton;
+			sourceTree = "<group>";
+		};
+		93FFF1011E92D3B500A9DAA1 /* PaginatorView */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF1021E92D3B500A9DAA1 /* PaginatorView.swift */,
+				93FFF1031E92D3B500A9DAA1 /* PaginatorView.xib */,
+			);
+			path = PaginatorView;
+			sourceTree = "<group>";
+		};
+		93FFF1041E92D3B500A9DAA1 /* RadioButtonController */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF1051E92D3B500A9DAA1 /* SSRadioButton.swift */,
+				93FFF1061E92D3B500A9DAA1 /* SSRadioButtonsController.swift */,
+			);
+			path = RadioButtonController;
+			sourceTree = "<group>";
+		};
+		93FFF1081E92D3B500A9DAA1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF1091E92D3B500A9DAA1 /* Array + Extension.swift */,
+				93FFF10A1E92D3B500A9DAA1 /* Date + Extension.swift */,
+				93FFF10B1E92D3B500A9DAA1 /* FileManager + Extension.swift */,
+				93FFF10C1E92D3B500A9DAA1 /* NSBundle copy */,
+				93FFF1101E92D3B500A9DAA1 /* String + Extension.swift */,
+				93FFF1111E92D3B500A9DAA1 /* String + Сurrency.swift */,
+				93FFF1121E92D3B500A9DAA1 /* UIAllertViewController + Extension.swift */,
+				93FFF1131E92D3B500A9DAA1 /* UICollectionView + Extension.swift */,
+				93FFF1141E92D3B500A9DAA1 /* UINib + Extension.swift */,
+				93FFF1151E92D3B500A9DAA1 /* UIStoryboard + Extension.swift */,
+				93FFF1161E92D3B500A9DAA1 /* UITableView + ChangeModel.swift */,
+				93FFF1171E92D3B500A9DAA1 /* UITableView + Extension.swift */,
+				93FFF1181E92D3B500A9DAA1 /* UIViewController + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		93FFF10C1E92D3B500A9DAA1 /* NSBundle copy */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF10D1E92D3B500A9DAA1 /* NSBundle+ANSExtenison.h */,
+				93FFF10E1E92D3B500A9DAA1 /* NSBundle+ANSExtenison.m */,
+				93FFF10F1E92D3B500A9DAA1 /* UINib + Extension.swift */,
+			);
+			path = "NSBundle copy";
+			sourceTree = "<group>";
+		};
+		93FFF11A1E92D3B500A9DAA1 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF11B1E92D3B500A9DAA1 /* ANSLoadingView */,
+				93FFF11F1E92D3B500A9DAA1 /* ASNRootView */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		93FFF11B1E92D3B500A9DAA1 /* ANSLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF11C1E92D3B500A9DAA1 /* ANSLoadingView.h */,
+				93FFF11D1E92D3B500A9DAA1 /* ANSLoadingView.m */,
+				93FFF11E1E92D3B500A9DAA1 /* ANSLoadingView.xib */,
+			);
+			path = ANSLoadingView;
+			sourceTree = "<group>";
+		};
+		93FFF11F1E92D3B500A9DAA1 /* ASNRootView */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF1201E92D3B500A9DAA1 /* ANSRootView.h */,
+				93FFF1211E92D3B500A9DAA1 /* ANSRootView.m */,
+			);
+			path = ASNRootView;
+			sourceTree = "<group>";
+		};
+		93FFF1231E92D3B500A9DAA1 /* Macroses */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF1241E92D3B500A9DAA1 /* ANSMacros.h */,
+			);
+			path = Macroses;
+			sourceTree = "<group>";
+		};
+		93FFF1261E92D3B500A9DAA1 /* RxCustom */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF1271E92D3B500A9DAA1 /* ExpandButton.swift */,
+				93FFF1281E92D3B500A9DAA1 /* ImageLoader.swift */,
+				93FFF1291E92D3B500A9DAA1 /* ObservableArray.swift */,
+			);
+			path = RxCustom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,8 +506,13 @@
 			files = (
 				93FFF0DB1E92D2C500A9DAA1 /* Info.plist in Resources */,
 				93FFF0D91E92D2C500A9DAA1 /* Main.storyboard in Resources */,
+				93FFF1561E92D3B500A9DAA1 /* ANSLoadingView.xib in Resources */,
+				93FFF1421E92D3B500A9DAA1 /* PaginatorView.xib in Resources */,
+				93FFF13A1E92D3B500A9DAA1 /* Info.plist in Resources */,
+				93FFF13B1E92D3B500A9DAA1 /* DropDownCell.xib in Resources */,
 				93FFF0D71E92D2C500A9DAA1 /* Assets.xcassets in Resources */,
 				93FFF0D81E92D2C500A9DAA1 /* LaunchScreen.storyboard in Resources */,
+				93FFF1361E92D3B500A9DAA1 /* CustomPlayer.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,8 +523,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93FFF1341E92D3B500A9DAA1 /* TrancitionViewController.swift in Sources */,
+				93FFF15B1E92D3B500A9DAA1 /* ImageLoader.swift in Sources */,
+				93FFF14F1E92D3B500A9DAA1 /* UINib + Extension.swift in Sources */,
+				93FFF1441E92D3B500A9DAA1 /* SSRadioButtonsController.swift in Sources */,
+				93FFF1591E92D3B500A9DAA1 /* ObservableArray.swift in Sources */,
+				93FFF14D1E92D3B500A9DAA1 /* UIAllertViewController + Extension.swift in Sources */,
 				93FFF0DA1E92D2C500A9DAA1 /* GitTest.xcdatamodeld in Sources */,
+				93FFF1301E92D3B500A9DAA1 /* SlideInPresentationAnimator.swift in Sources */,
+				93FFF1381E92D3B500A9DAA1 /* DPDKeyboardListener.swift in Sources */,
+				93FFF1371E92D3B500A9DAA1 /* DPDConstants.swift in Sources */,
+				93FFF15A1E92D3B500A9DAA1 /* ExpandButton.swift in Sources */,
+				93FFF12A1E92D3B500A9DAA1 /* Binding.swift in Sources */,
+				93FFF12B1E92D3B500A9DAA1 /* Converter.swift in Sources */,
+				93FFF1481E92D3B500A9DAA1 /* FileManager + Extension.swift in Sources */,
 				93FFF0D61E92D2C500A9DAA1 /* AppDelegate.swift in Sources */,
+				93FFF13C1E92D3B500A9DAA1 /* DropDown+Appearance.swift in Sources */,
+				93FFF12E1E92D3B500A9DAA1 /* FlipTransitionDelegate.swift in Sources */,
+				93FFF1551E92D3B500A9DAA1 /* ANSLoadingView.m in Sources */,
+				93FFF13E1E92D3B500A9DAA1 /* DropDownCell.swift in Sources */,
+				93FFF14A1E92D3B500A9DAA1 /* UINib + Extension.swift in Sources */,
+				93FFF14E1E92D3B500A9DAA1 /* UICollectionView + Extension.swift in Sources */,
+				93FFF1391E92D3B500A9DAA1 /* DPDUIView+Extension.swift in Sources */,
+				93FFF1501E92D3B500A9DAA1 /* UIStoryboard + Extension.swift in Sources */,
+				93FFF13F1E92D3B500A9DAA1 /* LeftArrowButton.swift in Sources */,
+				93FFF1491E92D3B500A9DAA1 /* NSBundle+ANSExtenison.m in Sources */,
+				93FFF12C1E92D3B500A9DAA1 /* FlipApperdAnimationController.swift in Sources */,
+				93FFF14B1E92D3B500A9DAA1 /* String + Extension.swift in Sources */,
+				93FFF1461E92D3B500A9DAA1 /* Array + Extension.swift in Sources */,
+				93FFF1401E92D3B500A9DAA1 /* RightArrowButton.swift in Sources */,
+				93FFF12F1E92D3B500A9DAA1 /* SwipeInteractionController.swift in Sources */,
+				93FFF1531E92D3B500A9DAA1 /* UIViewController + Extension.swift in Sources */,
+				93FFF14C1E92D3B500A9DAA1 /* String + Сurrency.swift in Sources */,
+				93FFF1571E92D3B500A9DAA1 /* ANSRootView.m in Sources */,
+				93FFF1511E92D3B500A9DAA1 /* UITableView + ChangeModel.swift in Sources */,
+				93FFF1351E92D3B500A9DAA1 /* CustomPlayer.swift in Sources */,
+				93FFF13D1E92D3B500A9DAA1 /* DropDown.swift in Sources */,
+				93FFF15C1E92D3B500A9DAA1 /* ObservableArray.swift in Sources */,
+				93FFF1451E92D3B500A9DAA1 /* ExpandButton.swift in Sources */,
+				93FFF1521E92D3B500A9DAA1 /* UITableView + Extension.swift in Sources */,
+				93FFF1321E92D3B500A9DAA1 /* SlideInPresentationManager.swift in Sources */,
+				93FFF1541E92D3B500A9DAA1 /* ImageLoader.swift in Sources */,
+				93FFF1311E92D3B500A9DAA1 /* SlideInPresentationController.swift in Sources */,
+				93FFF1411E92D3B500A9DAA1 /* PaginatorView.swift in Sources */,
+				93FFF1581E92D3B500A9DAA1 /* Locker.swift in Sources */,
+				93FFF12D1E92D3B500A9DAA1 /* FlipDismissAnimationControllerViewController.swift in Sources */,
+				93FFF1331E92D3B500A9DAA1 /* SlideOutAnimationController.swift in Sources */,
+				93FFF1431E92D3B500A9DAA1 /* SSRadioButton.swift in Sources */,
+				93FFF1471E92D3B500A9DAA1 /* Date + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
