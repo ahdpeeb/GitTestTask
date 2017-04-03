@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class SwipeInteractionController: UIPercentDrivenInteractiveTransition {
     public var interactionInProgress = false

@@ -33,11 +33,15 @@ class CustomPlayer: UIView {
     }
     
     var isPlaying: Bool {
-        if let status = self.player?.timeControlStatus {
-            switch status {
-            case .playing: return true
-            default: return false
+        if #available(iOS 10.0, *) {
+            if let status = self.player?.timeControlStatus {
+                switch status {
+                case .playing: return true
+                default: return false
+                }
             }
+        } else {
+            // Fallback on earlier versions
         }
         
         return false
