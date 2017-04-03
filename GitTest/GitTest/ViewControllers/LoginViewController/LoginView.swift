@@ -8,5 +8,8 @@
 
 import UIKit
 
-class LoginView: UIView {
+class LoginView: ANSRootView {
+    @IBOutlet var emailTextField: UITextField!
+    @IBOutlet var passwordTextField: UITextField!
+    
 }
