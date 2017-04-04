@@ -31,7 +31,7 @@ public enum RxRequstError: Error {
 }
 
 class ViewModel {
-    func loadJSON(url: URLConvertible, method: HTTPMethod = .get, parametres: Parameters? = nil, encoding: ParameterEncoding = URLEncoding.default, headers: [String: String]? = nil) -> Observable<[String: Any]> {
+    public func loadJSON(url: URLConvertible, method: HTTPMethod = .get, parametres: Parameters? = nil, encoding: ParameterEncoding = URLEncoding.default, headers: [String: String]? = nil) -> Observable<[String: Any]> {
         return Observable<[String: Any]>.create { (observer) -> Disposable in
             let task = sessionManager.request(url, method: method, parameters: parametres, encoding: encoding, headers: headers).validate()
             task.responseJSON(queue: DispatchQueue.main, completionHandler: { serverResponce in
@@ -52,6 +52,30 @@ class ViewModel {
                 }
                 
                 observer.onNext(json)
+                observer.onCompleted()
+            })
+            
+            task.resume()
+            return Disposables.create(with: task.cancel)
+        }
+    }
+    
+    public func loadAny(url: URLConvertible, method: HTTPMethod = .get, parametres: Parameters? = nil, encoding: ParameterEncoding = URLEncoding.default, headers: [String: String]? = nil) -> Observable<Any> {
+        return Observable<Any>.create { (observer) -> Disposable in
+            let task = sessionManager.request(url, method: method, parameters: parametres, encoding: encoding, headers: headers).validate()
+            task.responseJSON(queue: DispatchQueue.main, completionHandler: { serverResponce in
+                guard let value = serverResponce.result.value else {
+                    guard let responce = serverResponce.response else {
+                        observer.onError(RxRequstError.unknown)
+                        return
+                    }
+                    
+                    let error = RxRequstError.httpRequestFailed(response: responce, statusCode: responce.statusCode)
+                    observer.onError(error)
+                    return
+                }
+                
+                observer.onNext(value)
                 observer.onCompleted()
             })
             

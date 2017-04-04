@@ -57,7 +57,7 @@ class LoginViewController: UIViewController {
         }).debug()
             .subscribe(onNext: { (user) in
             self.rootView.isLoadingViewVisible = false
-            user.map({ AppState.sharedInstance.logginedUser = $0 })
+            self.performSegue(withIdentifier: Constants.SeguesID.repositoriesList, sender: self)
         }, onError: { (error) in
             self.rootView.isLoadingViewVisible = false
             self.errorHandling(error: error as! RxRequstError)

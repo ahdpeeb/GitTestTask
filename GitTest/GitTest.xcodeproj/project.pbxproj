@@ -65,6 +65,13 @@
 		93FFF1851E92E7BD00A9DAA1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1841E92E7BD00A9DAA1 /* LoginViewModel.swift */; };
 		93FFF1871E92F71C00A9DAA1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1861E92F71C00A9DAA1 /* User.swift */; };
 		93FFF1891E92F79E00A9DAA1 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1881E92F79E00A9DAA1 /* BaseModel.swift */; };
+		93FFF18E1E937FA600A9DAA1 /* RepositoriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF18D1E937FA600A9DAA1 /* RepositoriesListViewController.swift */; };
+		93FFF1901E937FC800A9DAA1 /* RepositoriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF18F1E937FC800A9DAA1 /* RepositoriesListView.swift */; };
+		93FFF1921E93812A00A9DAA1 /* RepositoriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1911E93812A00A9DAA1 /* RepositoriesListViewModel.swift */; };
+		93FFF1941E9381F300A9DAA1 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1931E9381F300A9DAA1 /* Repository.swift */; };
+		93FFF1961E93828300A9DAA1 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1951E93828300A9DAA1 /* Owner.swift */; };
+		93FFF1981E93886800A9DAA1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF1971E93886800A9DAA1 /* Constants.swift */; };
+		93FFF19C1E938A3B00A9DAA1 /* RepositoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF19B1E938A3B00A9DAA1 /* RepositoryCell.swift */; };
 		99A128DEEBA819998164720F /* Pods_GitTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48EDFD1B8B21B5B30A0AC11 /* Pods_GitTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -135,6 +142,13 @@
 		93FFF1841E92E7BD00A9DAA1 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		93FFF1861E92F71C00A9DAA1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		93FFF1881E92F79E00A9DAA1 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		93FFF18D1E937FA600A9DAA1 /* RepositoriesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesListViewController.swift; sourceTree = "<group>"; };
+		93FFF18F1E937FC800A9DAA1 /* RepositoriesListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesListView.swift; sourceTree = "<group>"; };
+		93FFF1911E93812A00A9DAA1 /* RepositoriesListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesListViewModel.swift; sourceTree = "<group>"; };
+		93FFF1931E9381F300A9DAA1 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		93FFF1951E93828300A9DAA1 /* Owner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
+		93FFF1971E93886800A9DAA1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		93FFF19B1E938A3B00A9DAA1 /* RepositoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryCell.swift; sourceTree = "<group>"; };
 		B48EDFD1B8B21B5B30A0AC11 /* Pods_GitTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -194,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				93FFF15D1E92D7DD00A9DAA1 /* AppState.swift */,
+				93FFF1971E93886800A9DAA1 /* Constants.swift */,
 				93FFF15F1E92D82300A9DAA1 /* AccessTokenAdapter.swift */,
 			);
 			path = AppState;
@@ -204,6 +219,8 @@
 			children = (
 				93FFF1881E92F79E00A9DAA1 /* BaseModel.swift */,
 				93FFF1861E92F71C00A9DAA1 /* User.swift */,
+				93FFF1931E9381F300A9DAA1 /* Repository.swift */,
+				93FFF1951E93828300A9DAA1 /* Owner.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -225,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				93FFF16B1E92DCD400A9DAA1 /* LoginViewController */,
+				93FFF18C1E937F6D00A9DAA1 /* RepositoriesListViewController */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -234,6 +252,7 @@
 			children = (
 				93FFF1821E92E7A100A9DAA1 /* ViewModel.swift */,
 				93FFF1841E92E7BD00A9DAA1 /* LoginViewModel.swift */,
+				93FFF1911E93812A00A9DAA1 /* RepositoriesListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -462,6 +481,16 @@
 			path = LoginViewController;
 			sourceTree = "<group>";
 		};
+		93FFF18C1E937F6D00A9DAA1 /* RepositoriesListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93FFF18D1E937FA600A9DAA1 /* RepositoriesListViewController.swift */,
+				93FFF18F1E937FC800A9DAA1 /* RepositoriesListView.swift */,
+				93FFF19B1E938A3B00A9DAA1 /* RepositoryCell.swift */,
+			);
+			path = RepositoriesListViewController;
+			sourceTree = "<group>";
+		};
 		E38E819E85B2BECD08050517 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -605,6 +634,7 @@
 				93FFF1851E92E7BD00A9DAA1 /* LoginViewModel.swift in Sources */,
 				93FFF1341E92D3B500A9DAA1 /* TrancitionViewController.swift in Sources */,
 				93FFF1871E92F71C00A9DAA1 /* User.swift in Sources */,
+				93FFF1941E9381F300A9DAA1 /* Repository.swift in Sources */,
 				93FFF14D1E92D3B500A9DAA1 /* UIAllertViewController + Extension.swift in Sources */,
 				93FFF0DA1E92D2C500A9DAA1 /* GitTest.xcdatamodeld in Sources */,
 				93FFF1301E92D3B500A9DAA1 /* SlideInPresentationAnimator.swift in Sources */,
@@ -620,6 +650,7 @@
 				93FFF13E1E92D3B500A9DAA1 /* DropDownCell.swift in Sources */,
 				93FFF14E1E92D3B500A9DAA1 /* UICollectionView + Extension.swift in Sources */,
 				93FFF1391E92D3B500A9DAA1 /* DPDUIView+Extension.swift in Sources */,
+				93FFF18E1E937FA600A9DAA1 /* RepositoriesListViewController.swift in Sources */,
 				93FFF1501E92D3B500A9DAA1 /* UIStoryboard + Extension.swift in Sources */,
 				93FFF13F1E92D3B500A9DAA1 /* LeftArrowButton.swift in Sources */,
 				93FFF1601E92D82300A9DAA1 /* AccessTokenAdapter.swift in Sources */,
@@ -629,12 +660,15 @@
 				93FFF1401E92D3B500A9DAA1 /* RightArrowButton.swift in Sources */,
 				93FFF12F1E92D3B500A9DAA1 /* SwipeInteractionController.swift in Sources */,
 				93FFF1531E92D3B500A9DAA1 /* UIViewController + Extension.swift in Sources */,
+				93FFF1961E93828300A9DAA1 /* Owner.swift in Sources */,
+				93FFF1901E937FC800A9DAA1 /* RepositoriesListView.swift in Sources */,
 				93FFF14C1E92D3B500A9DAA1 /* String + Сurrency.swift in Sources */,
 				93FFF1571E92D3B500A9DAA1 /* ANSRootView.m in Sources */,
 				93FFF1511E92D3B500A9DAA1 /* UITableView + ChangeModel.swift in Sources */,
 				93FFF1351E92D3B500A9DAA1 /* CustomPlayer.swift in Sources */,
 				93FFF13D1E92D3B500A9DAA1 /* DropDown.swift in Sources */,
 				93FFF15C1E92D3B500A9DAA1 /* ObservableArray.swift in Sources */,
+				93FFF1921E93812A00A9DAA1 /* RepositoriesListViewModel.swift in Sources */,
 				93FFF16F1E92DDA700A9DAA1 /* LoginView.swift in Sources */,
 				93FFF1521E92D3B500A9DAA1 /* UITableView + Extension.swift in Sources */,
 				93FFF1321E92D3B500A9DAA1 /* SlideInPresentationManager.swift in Sources */,
@@ -647,9 +681,11 @@
 				93FFF15E1E92D7DD00A9DAA1 /* AppState.swift in Sources */,
 				93FFF12D1E92D3B500A9DAA1 /* FlipDismissAnimationControllerViewController.swift in Sources */,
 				93FFF1831E92E7A100A9DAA1 /* ViewModel.swift in Sources */,
+				93FFF19C1E938A3B00A9DAA1 /* RepositoryCell.swift in Sources */,
 				93FFF1671E92DC3300A9DAA1 /* NSBundle+ANSExtenison.m in Sources */,
 				93FFF1331E92D3B500A9DAA1 /* SlideOutAnimationController.swift in Sources */,
 				93FFF1471E92D3B500A9DAA1 /* Date + Extension.swift in Sources */,
+				93FFF1981E93886800A9DAA1 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
