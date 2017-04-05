@@ -55,6 +55,10 @@ extension RepositoriesListViewController: UITableViewDataSource, UITableViewDele
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueCell(cls: RepositoryCell.self, indexPath: indexPath)
+        if let model = self.repositories?[indexPath.row] {
+            cell.fillWithRepository(model)
+        }
+        
         return cell
     }
     

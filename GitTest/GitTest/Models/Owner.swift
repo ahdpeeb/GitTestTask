@@ -15,5 +15,9 @@ class Owner: BaseModel {
     
     override func mapping(map: Map) {
         super.mapping(map: map)
+        
+        login <- map["login"]
+        avatar_url <- map["avatar_url"]
     }
+    
 }

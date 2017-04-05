@@ -8,8 +8,11 @@
 
 import Foundation
 import Alamofire
+import AlamofireImage
 
 let sessionManager = Alamofire.SessionManager(configuration: URLSessionConfiguration.default)
+var imageDownloader: ImageDownloader?
+
 class AppState {
     //for defualt initialization
     static let sharedInstance = AppState()
