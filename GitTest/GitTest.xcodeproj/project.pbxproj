@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		935752BB1E958EEB00BFEBA7 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 935752BA1E958EEB00BFEBA7 /* KeychainWrapper.m */; };
 		93FFF0D61E92D2C500A9DAA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0CB1E92D2C500A9DAA1 /* AppDelegate.swift */; };
 		93FFF0D71E92D2C500A9DAA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93FFF0CC1E92D2C500A9DAA1 /* Assets.xcassets */; };
 		93FFF0D81E92D2C500A9DAA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FFF0CD1E92D2C500A9DAA1 /* LaunchScreen.storyboard */; };
@@ -78,6 +79,8 @@
 /* Begin PBXFileReference section */
 		6781A9F58444C5A5F55AD825 /* Pods-GitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitTest/Pods-GitTest.debug.xcconfig"; sourceTree = "<group>"; };
 		7DA4785E640FC7FDD06EF1BD /* Pods-GitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitTest/Pods-GitTest.release.xcconfig"; sourceTree = "<group>"; };
+		935752B91E958EEB00BFEBA7 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
+		935752BA1E958EEB00BFEBA7 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
 		93FFF0B01E92D1FB00A9DAA1 /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FFF0CB1E92D2C500A9DAA1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93FFF0CC1E92D2C500A9DAA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -172,6 +175,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		935752B71E958EEB00BFEBA7 /* KeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				935752B81E958EEB00BFEBA7 /* KeychainWrapper */,
+			);
+			path = KeychainWrapper;
+			sourceTree = "<group>";
+		};
+		935752B81E958EEB00BFEBA7 /* KeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				935752B91E958EEB00BFEBA7 /* KeychainWrapper.h */,
+				935752BA1E958EEB00BFEBA7 /* KeychainWrapper.m */,
+			);
+			path = KeychainWrapper;
+			sourceTree = "<group>";
+		};
 		93FFF0A71E92D1FB00A9DAA1 = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +282,7 @@
 			children = (
 				93FFF0DE1E92D3B400A9DAA1 /* Converter.swift */,
 				93FFF0DF1E92D3B400A9DAA1 /* CustomModalControllers */,
+				935752B71E958EEB00BFEBA7 /* KeychainWrapper */,
 				93FFF0EB1E92D3B400A9DAA1 /* CustomUI */,
 				93FFF1081E92D3B500A9DAA1 /* Extensions */,
 				93FFF11A1E92D3B500A9DAA1 /* LoadingView */,
@@ -656,6 +677,7 @@
 				93FFF1601E92D82300A9DAA1 /* AccessTokenAdapter.swift in Sources */,
 				93FFF12C1E92D3B500A9DAA1 /* FlipApperdAnimationController.swift in Sources */,
 				93FFF14B1E92D3B500A9DAA1 /* String + Extension.swift in Sources */,
+				935752BB1E958EEB00BFEBA7 /* KeychainWrapper.m in Sources */,
 				93FFF1461E92D3B500A9DAA1 /* Array + Extension.swift in Sources */,
 				93FFF1401E92D3B500A9DAA1 /* RightArrowButton.swift in Sources */,
 				93FFF12F1E92D3B500A9DAA1 /* SwipeInteractionController.swift in Sources */,
