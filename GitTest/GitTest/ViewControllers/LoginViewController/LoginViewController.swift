@@ -83,13 +83,25 @@ class LoginViewController: UIViewController {
         }).addDisposableTo(disposeBag)
     }
     
+    // DESC:
     private func errorHandling(error: RxRequstError) {
-        UserDefaults.standard.set(false, forKey: Constants.loginKey)
-        let controller = UIAlertController.presentSimpleError(title: "Error occurred", message: error.debugDescription)
+        var controller: UIAlertController
+        switch error {
+        case .httpRequestFailed(response: _, statusCode: let statusCode):
+            switch statusCode {
+            case 401: UserDefaults.standard.set(false, forKey: Constants.loginKey)
+                controller = UIAlertController.presentSimpleError(title: "Login error", message: "Wrong account or password")
+            default: controller = UIAlertController.presentSimpleError(title: "Error occurred", message: error.debugDescription)
+            }
+        default:
+            controller = UIAlertController.presentSimpleError(title: "Error occurred", message: error.debugDescription)
+        }
+        
+        
         self.present(controller, animated: true)
     }
     
-    //MARK: cache authentication
+    //MARK: Cache authentication
     
     private func saveAuthentication() {
         guard let login = self.rootView.emailTextField.text, let pass = self.rootView.passwordTextField.text else { return }
