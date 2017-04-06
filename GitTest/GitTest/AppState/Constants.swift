@@ -12,4 +12,8 @@ struct Constants {
     struct SeguesID {
         static let repositoriesList = "RepositoriesListViewController"
     }
+    
+    static let loginKey = "loginKey"
+    static let userLoginKey = "userLoginKey"
+    static let userPassKey = "userPassKey"
 }
