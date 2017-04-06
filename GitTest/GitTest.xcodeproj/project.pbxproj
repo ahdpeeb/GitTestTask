@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		935752BB1E958EEB00BFEBA7 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 935752BA1E958EEB00BFEBA7 /* KeychainWrapper.m */; };
+		935752BF1E96730500BFEBA7 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935752BE1E96730500BFEBA7 /* Branch.swift */; };
+		935752CD1E96D42A00BFEBA7 /* CommitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935752CC1E96D42A00BFEBA7 /* CommitsViewController.swift */; };
+		935752CF1E96D46500BFEBA7 /* CommitsRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935752CE1E96D46500BFEBA7 /* CommitsRootView.swift */; };
+		935752D11E96D52B00BFEBA7 /* CommitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935752D01E96D52B00BFEBA7 /* CommitsViewModel.swift */; };
+		935752D31E96D5E100BFEBA7 /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935752D21E96D5E100BFEBA7 /* Commit.swift */; };
+		935752D51E96E4E600BFEBA7 /* CommitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935752D41E96E4E600BFEBA7 /* CommitCell.swift */; };
 		93FFF0D61E92D2C500A9DAA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFF0CB1E92D2C500A9DAA1 /* AppDelegate.swift */; };
 		93FFF0D71E92D2C500A9DAA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93FFF0CC1E92D2C500A9DAA1 /* Assets.xcassets */; };
 		93FFF0D81E92D2C500A9DAA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FFF0CD1E92D2C500A9DAA1 /* LaunchScreen.storyboard */; };
@@ -81,6 +87,12 @@
 		7DA4785E640FC7FDD06EF1BD /* Pods-GitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitTest/Pods-GitTest.release.xcconfig"; sourceTree = "<group>"; };
 		935752B91E958EEB00BFEBA7 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
 		935752BA1E958EEB00BFEBA7 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
+		935752BE1E96730500BFEBA7 /* Branch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
+		935752CC1E96D42A00BFEBA7 /* CommitsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommitsViewController.swift; sourceTree = "<group>"; };
+		935752CE1E96D46500BFEBA7 /* CommitsRootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommitsRootView.swift; sourceTree = "<group>"; };
+		935752D01E96D52B00BFEBA7 /* CommitsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommitsViewModel.swift; sourceTree = "<group>"; };
+		935752D21E96D5E100BFEBA7 /* Commit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commit.swift; sourceTree = "<group>"; };
+		935752D41E96E4E600BFEBA7 /* CommitCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommitCell.swift; sourceTree = "<group>"; };
 		93FFF0B01E92D1FB00A9DAA1 /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FFF0CB1E92D2C500A9DAA1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93FFF0CC1E92D2C500A9DAA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -192,6 +204,16 @@
 			path = KeychainWrapper;
 			sourceTree = "<group>";
 		};
+		935752CB1E96D40E00BFEBA7 /* CommitsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				935752CC1E96D42A00BFEBA7 /* CommitsViewController.swift */,
+				935752CE1E96D46500BFEBA7 /* CommitsRootView.swift */,
+				935752D41E96E4E600BFEBA7 /* CommitCell.swift */,
+			);
+			path = CommitsViewController;
+			sourceTree = "<group>";
+		};
 		93FFF0A71E92D1FB00A9DAA1 = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +263,8 @@
 				93FFF1861E92F71C00A9DAA1 /* User.swift */,
 				93FFF1931E9381F300A9DAA1 /* Repository.swift */,
 				93FFF1951E93828300A9DAA1 /* Owner.swift */,
+				935752BE1E96730500BFEBA7 /* Branch.swift */,
+				935752D21E96D5E100BFEBA7 /* Commit.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -263,6 +287,7 @@
 			children = (
 				93FFF16B1E92DCD400A9DAA1 /* LoginViewController */,
 				93FFF18C1E937F6D00A9DAA1 /* RepositoriesListViewController */,
+				935752CB1E96D40E00BFEBA7 /* CommitsViewController */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -273,6 +298,7 @@
 				93FFF1821E92E7A100A9DAA1 /* ViewModel.swift */,
 				93FFF1841E92E7BD00A9DAA1 /* LoginViewModel.swift */,
 				93FFF1911E93812A00A9DAA1 /* RepositoriesListViewModel.swift */,
+				935752D01E96D52B00BFEBA7 /* CommitsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -653,6 +679,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93FFF1851E92E7BD00A9DAA1 /* LoginViewModel.swift in Sources */,
+				935752D11E96D52B00BFEBA7 /* CommitsViewModel.swift in Sources */,
 				93FFF1341E92D3B500A9DAA1 /* TrancitionViewController.swift in Sources */,
 				93FFF1871E92F71C00A9DAA1 /* User.swift in Sources */,
 				93FFF1941E9381F300A9DAA1 /* Repository.swift in Sources */,
@@ -687,7 +714,9 @@
 				93FFF14C1E92D3B500A9DAA1 /* String + Сurrency.swift in Sources */,
 				93FFF1571E92D3B500A9DAA1 /* ANSRootView.m in Sources */,
 				93FFF1511E92D3B500A9DAA1 /* UITableView + ChangeModel.swift in Sources */,
+				935752D31E96D5E100BFEBA7 /* Commit.swift in Sources */,
 				93FFF1351E92D3B500A9DAA1 /* CustomPlayer.swift in Sources */,
+				935752CF1E96D46500BFEBA7 /* CommitsRootView.swift in Sources */,
 				93FFF13D1E92D3B500A9DAA1 /* DropDown.swift in Sources */,
 				93FFF15C1E92D3B500A9DAA1 /* ObservableArray.swift in Sources */,
 				93FFF1921E93812A00A9DAA1 /* RepositoriesListViewModel.swift in Sources */,
@@ -695,16 +724,19 @@
 				93FFF1521E92D3B500A9DAA1 /* UITableView + Extension.swift in Sources */,
 				93FFF1321E92D3B500A9DAA1 /* SlideInPresentationManager.swift in Sources */,
 				93FFF1621E92DB3400A9DAA1 /* UINib + Extension.swift in Sources */,
+				935752CD1E96D42A00BFEBA7 /* CommitsViewController.swift in Sources */,
 				93FFF1311E92D3B500A9DAA1 /* SlideInPresentationController.swift in Sources */,
 				93FFF16D1E92DD7F00A9DAA1 /* LoginViewController.swift in Sources */,
 				93FFF1641E92DC1100A9DAA1 /* ImageLoader.swift in Sources */,
 				93FFF1411E92D3B500A9DAA1 /* PaginatorView.swift in Sources */,
 				93FFF1581E92D3B500A9DAA1 /* Locker.swift in Sources */,
 				93FFF15E1E92D7DD00A9DAA1 /* AppState.swift in Sources */,
+				935752BF1E96730500BFEBA7 /* Branch.swift in Sources */,
 				93FFF12D1E92D3B500A9DAA1 /* FlipDismissAnimationControllerViewController.swift in Sources */,
 				93FFF1831E92E7A100A9DAA1 /* ViewModel.swift in Sources */,
 				93FFF19C1E938A3B00A9DAA1 /* RepositoryCell.swift in Sources */,
 				93FFF1671E92DC3300A9DAA1 /* NSBundle+ANSExtenison.m in Sources */,
+				935752D51E96E4E600BFEBA7 /* CommitCell.swift in Sources */,
 				93FFF1331E92D3B500A9DAA1 /* SlideOutAnimationController.swift in Sources */,
 				93FFF1471E92D3B500A9DAA1 /* Date + Extension.swift in Sources */,
 				93FFF1981E93886800A9DAA1 /* Constants.swift in Sources */,

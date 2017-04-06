@@ -10,6 +10,9 @@ import UIKit
 import AlamofireImage
 
 class RepositoryCell: UITableViewCell {
+    var showBranchesBlock: ((_ sender: UIButton) -> ())?
+    
+    @IBOutlet var showBranchasButton: UIButton!
     @IBOutlet var avatarImageView: UIImageView!
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var ownerLabel: UILabel!
@@ -36,5 +39,9 @@ class RepositoryCell: UITableViewCell {
        _ = imageDownloader?.download(request, receiptID: stringURL!, filter: filter, progress: nil, progressQueue: DispatchQueue.main, completion: { (responce) in
             self.avatarImageView.image = responce.result.value
         })
+    }
+    
+    @IBAction func showBranchesAction(sender: UIButton) {
+        self.showBranchesBlock.map({ $0(sender) })
     }
 }

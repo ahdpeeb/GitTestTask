@@ -25,4 +25,18 @@ class RepositoriesListViewModel: ViewModel {
                 return buffet
             })
     }
+    
+    func loadBranches(owner: String, repo: String) -> Observable<[Branch]> {
+        let url = "https://api.github.com/repos/\(owner)/\(repo)/branches"
+        return self.loadAny(url: url)
+            .map({ (any) -> [Branch] in
+                guard let jsons = any as? [[String: Any]] else { return [] }
+                var buffer = [Branch]()
+                jsons.forEach({ (json) in
+                    Branch(JSON: json).map({ buffer.append($0) })
+                })
+                
+                return buffer
+            })
+    }
 }
